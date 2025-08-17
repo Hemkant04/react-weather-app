@@ -48,7 +48,8 @@ cd react-weather-app
 npm install  # or yarn install
 ```
 
-# 4. Register your account in https://openweathermap.org/api and get your API KEY
+# 4. Register your account in WeatherAPI site.
+- https://openweathermap.org/api and get your API KEY
 - Directly paste your API Key by creating const APIKEY name in App.js.
 - or you can seperately store in another file and import in App.js (do any one)
 
