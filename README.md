@@ -29,17 +29,30 @@ project-root/
 │── package.json # Dependencies & scripts  
 
 
+```
 
 ## Installation & Setup
 
 # 1. Clone the repository
-git clone hhttps://github.com/Hemkant04/react-weather-app.git
+```bash
+git clone hhttps://github.com/Hemkant04/react-weather-app.git 
+```
 
 # 2. Navigate into the project directory
+```bash
 cd react-weather-app
+```
 
 # 3. Install dependencies
+```bash
 npm install  # or yarn install
+```
 
-# 4. Start development server
+# 4. Register your account in https://openweathermap.org/api and get your API KEY
+- Directly paste your API Key by creating const APIKEY name in App.js.
+- or you can seperately store in another file and import in App.js (do any one)
+
+# 5. Start development server
+```bash
 npm run start
+```
